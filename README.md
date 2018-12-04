@@ -1,2 +1,2 @@
 # Split-Bills
-A simple application to split bills between your friends.
+A simple application to split bills among your friends.
