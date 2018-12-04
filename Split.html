@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Split Bills</title>
+	<style type="text/css">
+		body{
+			/*background-color: #1fd32f;*/
+			background-image: linear-gradient(to right, #5DC00B, #3E9E15);
+			
+		}
+		.space{
+			margin-left: 10px;
+		}
+		input{
+			width:auto;
+		}
+		#out{
+			margin-left:10px;
+			margin-top:10px;
+			font-size: 1.2em;
+		}
+	</style>
+  </head>
+  <body>	
+	<h2 style="text-align: center; margin-top: 5px;"><b>Split Bills</b></h2>
+	<hr>
+	<input class = "space" type = "number" min = "0" id = "conti" placeholder = " - Enter contribution - "></input>
+	<input type = "button" id = "add" class = "space" value = "ADD" onclick = "addConti();"></input>
+	<input type = "button" id = "calculate" class = "space" value = "CALCULATE" onclick = "calc();"></input>
+	<div id = "out">
+		<p>Enter the contributions of each person and then click "ADD" button and finally click "CALCULATE" button to split the bill</p>
+	</div>
+</body>
+</html>
